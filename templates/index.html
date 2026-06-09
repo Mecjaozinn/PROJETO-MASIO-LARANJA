@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maio Laranja — Proteção que transforma vidas</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ══════ HERO ══════ -->
+  <header class="hero">
+    <div class="hero-bg-flowers"></div>
+    <nav class="nav">
+      <span class="nav-logo">🟠 Maio Laranja</span>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#araceli">Araceli</a></li>
+        <li><a href="#denuncia">Denúncia</a></li>
+        <li><a href="/quiz" class="nav-btn">Quiz</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">18 de maio · Dia Nacional de Combate</p>
+      <h1 class="hero-title">Toda criança<br>merece ser<br><em>protegida.</em></h1>
+      <p class="hero-sub">O silêncio não protege. A denúncia sim.</p>
+      <div class="hero-actions">
+        <a href="#denuncia" class="btn btn-primary">Faça uma denúncia</a>
+        <a href="/quiz" class="btn btn-ghost">Teste seu conhecimento</a>
+      </div>
+    </div>
+
+    <div class="hero-stat-strip">
+      <div class="stat">
+        <span class="stat-n">100</span>
+        <span class="stat-label">Disque Direitos Humanos</span>
+      </div>
+      <div class="stat-div"></div>
+      <div class="stat">
+        <span class="stat-n">18/05</span>
+        <span class="stat-label">Dia Nacional de Combate</span>
+      </div>
+      <div class="stat-div"></div>
+      <div class="stat">
+        <span class="stat-n">ECA</span>
+        <span class="stat-label">Lei que protege toda criança</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══════ SOBRE ══════ -->
+  <section id="sobre" class="section section-white">
+    <div class="container">
+      <p class="section-eyebrow">O que é</p>
+      <h2 class="section-title">Maio Laranja</h2>
+      <div class="sobre-grid">
+        <div class="sobre-text">
+          <p>O <strong>Maio Laranja</strong> é a campanha nacional de conscientização e combate ao abuso e à exploração sexual de crianças e adolescentes. Realizada todo mês de maio, ela une escolas, famílias, governos e a sociedade em torno de um único objetivo: <strong>proteger quem mais precisa.</strong></p>
+          <p>A cor laranja representa energia, atenção e alerta — uma chama que não se apaga enquanto houver crianças em risco.</p>
+          <p>Esse é um trabalho em conjunto. Nossa equipe aprofunda os temas em cada encontro — aqui você encontra o essencial para agir.</p>
+        </div>
+        <div class="sobre-cards">
+          <div class="info-card">
+            <span class="info-icon">🛡️</span>
+            <h3>Proteger é dever de todos</h3>
+            <p>Família, escola, vizinhança e Estado compartilham a responsabilidade.</p>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">👁️</span>
+            <h3>Reconheça os sinais</h3>
+            <p>Mudanças bruscas de comportamento, isolamento e medo excessivo são alertas.</p>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">📢</span>
+            <h3>Denuncie sem medo</h3>
+            <p>A denúncia pode ser anônima. Ligue 100 ou use o formulário abaixo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ ARACELI ══════ -->
+  <section id="araceli" class="section section-dark">
+    <div class="container">
+      <div class="araceli-grid">
+        <div class="araceli-photo">
+          <div class="photo-frame">
+            <div class="photo-placeholder">
+              <span>Araceli<br>Crespo</span>
+            </div>
+          </div>
+        </div>
+        <div class="araceli-text">
+          <p class="section-eyebrow light">Por que essa data?</p>
+          <h2 class="section-title light">Em memória de<br><em>Araceli Crespo</em></h2>
+          <p>O 18 de maio foi escolhido em memória de <strong>Araceli Crespo</strong>, uma menina de 8 anos brutalmente assassinada em 1973, em Vitória (ES). O caso chocou o Brasil e se tornou símbolo da luta por justiça e proteção infantil.</p>
+          <p>Décadas depois, sua história segue viva — não como tragédia, mas como <strong>chamado à ação</strong>. Para que nenhuma outra criança passe pelo mesmo.</p>
+          <a href="#denuncia" class="btn btn-primary mt">Denunciar agora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ DENÚNCIA ══════ -->
+  <section id="denuncia" class="section section-white">
+    <div class="container container-narrow">
+      <p class="section-eyebrow">Disque Denúncia</p>
+      <h2 class="section-title">Sua voz protege<br>uma criança</h2>
+      <p class="section-desc">A denúncia é <strong>100% anônima</strong>. Nenhum dado pessoal seu será coletado. Se preferir, ligue direto para o <strong>100</strong>.</p>
+
+      <div class="form-card" id="form-area">
+        <div class="form-group">
+          <label for="tipo">Tipo de violação <span class="req">*</span></label>
+          <select id="tipo">
+            <option value="">Selecione...</option>
+            <option value="abuso_sexual">Abuso sexual</option>
+            <option value="exploracao_sexual">Exploração sexual</option>
+            <option value="trabalho_infantil">Trabalho infantil</option>
+            <option value="negligencia">Negligência</option>
+            <option value="violencia_fisica">Violência física</option>
+            <option value="violencia_psicologica">Violência psicológica</option>
+            <option value="outro">Outro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="local">Local aproximado (cidade/bairro)</label>
+          <input type="text" id="local" placeholder="Ex: Belo Horizonte, MG — opcional" />
+        </div>
+        <div class="form-group">
+          <label for="descricao">Descreva o que você viu ou sabe <span class="req">*</span></label>
+          <textarea id="descricao" rows="5" placeholder="Relate o que aconteceu. Não identifique a vítima pelo nome."></textarea>
+        </div>
+        <p class="form-aviso">🔒 Nenhum dado pessoal é coletado. Sua identidade está protegida.</p>
+        <button class="btn btn-primary btn-full" id="btn-enviar" onclick="enviarDenuncia()">Enviar denúncia</button>
+      </div>
+
+      <div class="form-sucesso hidden" id="form-sucesso">
+        <span class="sucesso-icon">✅</span>
+        <h3>Denúncia registrada!</h3>
+        <p>Obrigado por agir. Cada denúncia pode salvar uma vida.</p>
+        <button class="btn btn-ghost mt" onclick="novaDenuncia()">Fazer outra denúncia</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ QUIZ CTA ══════ -->
+  <section class="section section-orange">
+    <div class="container container-narrow text-center">
+      <p class="section-eyebrow light">Teste seus conhecimentos</p>
+      <h2 class="section-title light">Você sabe como<br>proteger uma criança?</h2>
+      <p class="section-desc light">5 perguntas sobre o Maio Laranja, o ECA e os direitos das crianças.</p>
+      <a href="/quiz" class="btn btn-white">Iniciar o quiz →</a>
+    </div>
+  </section>
+
+  <!-- ══════ FOOTER ══════ -->
+  <footer class="footer">
+    <div class="container">
+      <p>🟠 <strong>Maio Laranja</strong> — Proteção que transforma vidas</p>
+      <p class="footer-sub">Emergência: <strong>190</strong> · Direitos Humanos: <strong>100</strong></p>
+    </div>
+  </footer>
+
+  <script src="/static/js/main.js"></script>
+</body>
+</html>
