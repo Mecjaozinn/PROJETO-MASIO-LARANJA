@@ -849,6 +849,3 @@ Após ter o site no ar, gere o QR Code gratuitamente:
 4. Baixe em PNG ou SVG
 5. Coloque em cartazes, slides e materiais impressos
 
----
-
-*Documentação gerada para o projeto Maio Laranja — 18 de Maio, Dia Nacional de Combate ao Abuso e à Exploração Sexual de Crianças e Adolescentes.*
